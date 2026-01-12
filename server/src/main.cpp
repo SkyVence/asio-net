@@ -1,6 +1,6 @@
-#include <iostream>
+#include "server.hpp"
 
 int main() {
-  std::cout << "Hello, World Server!" << std::endl;
-  return 0;
+	Server Server("127.0.0.1", 8080);
+	return 0;
 }
